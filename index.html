@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de Ayvar</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Para ti Lu.</strong>
+                        <p>
+                            Buenas noches, Lucero: Te hago este detalle para mostrarte mi cariño y decirte lo bien que me la pasé hoy. Eres encantadora y divertida, y me encanta que tengamos los mismos gustos musicales y sentido del humor. Espero volver a verte pronto. No olvidaré este día y te agradezco de corazón por sacarme de mi rutina. Me encantas mucho y espero que sientas lo mismo por mí. Te quiero mucho. Esto es para ti. ¡Muak! Con cariño, Ayvar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
